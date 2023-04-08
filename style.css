@@ -1,0 +1,44 @@
+* {
+    font-family: 'Calibri';
+}
+
+.container {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+caption {
+    padding: 10px 0;
+    background-color: #fea50a;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    font-weight: bold;
+    background-color: #fff6ce;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 100%;
+    }
+
+}
